@@ -5,14 +5,15 @@ import { useCart } from "../context/CartContext";
 import emailjs from "@emailjs/browser";
 
 // Images
-import sapphirebank from "../assets/sapphire bank.jpg";
-import  sapphirechurch from "../assets/sapphire church.jpg";
-import sapphirespa from "../assets/sapphire spa.jpg";
-import sapphirepark from "../assets/sapphire park.jpg";
-import sapphirerestaurant from "../assets/sapphire restaurant.jpg";
-import sapphiregym from "../assets/sapphire gym.jpg";
-import sapphirehotel from "../assets/sapphire hotel.jpg";
-import sapphirehospital from "../assets/sapphire hospital.jpg";
+import sapphirebank from "../assets/sapphire-bank.jpg";
+import  sapphirechurch from "../assets/sapphire-church.jpg";
+import sapphirespa from "../assets/sapphire-spa.jpg";
+import sapphirepark from "../assets/sapphire-park.jpg";
+import sapphirerestaurant from "../assets/sapphire-restaurant.jpg";
+import sapphiregym from "../assets/sapphire-gym.jpg";
+import sapphirehotel from "../assets/sapphire-hotel.jpg";
+import sapphirehospital from "../assets/sapphire-hospital.jpg";
+
 
 // Services with prices
 const services = [

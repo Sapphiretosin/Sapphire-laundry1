@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes, FaUser } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useCart } from "../context/CartContext";
-import sapphire11 from "../assets/sapphire logo.png";
+import sapphire11 from "../assets/sapphire-logo.png";
 import { registerUser, loginUser } from "../utils/api";
 
 const Navbar = () => {
