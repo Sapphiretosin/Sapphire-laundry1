@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { FaBars, FaTimes, FaUser } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { useCart } from "../context/CartContext";
-import sapphire11 from "../assets/sapphire-logo.png";
+import sapphirelogo from "../assets/sapphire-logo.png";
 import { registerUser, loginUser } from "../utils/api";
 
 const Navbar = () => {
@@ -90,7 +90,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
             <img
-              src={sapphire11}
+              src={sapphirelogo}
               alt="Sapphire Laundry Logo"
               className="w-14 h-14 object-cover rounded-full drop-shadow-md"
             />
